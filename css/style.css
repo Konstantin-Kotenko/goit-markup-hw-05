@@ -270,10 +270,9 @@ img {
 
 .action-overlay {
   position: absolute;
-  top: 224px;
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 70px;
   padding: 27px 0;
   background: var(--action-text-background-color);
 }
@@ -707,7 +706,7 @@ img {
 .portfolio-overlay {
   position: absolute;
   padding: 63px 24px;
-  height: 370px;
+  height: 100%;
   top: 0;
   left: 0;
   transform: translateY(100%);
